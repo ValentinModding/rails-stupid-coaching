@@ -1,0 +1,14 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ // Defining a variable
+ $gray: #F4F4F4;
+
+ body {
+   background: $gray; // Using this variable
+   font-family: 'Montserrat', sans-serif;
+   margin: 250px 500px;
+   text-align: center;
+ }

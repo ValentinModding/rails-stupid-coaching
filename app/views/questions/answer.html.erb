@@ -1,0 +1,12 @@
+<h1 style="text-align-center" >Answer Page</h1>
+<div id="question" class="message-card">
+<h2><%= @input %></h2>
+<span>- You</span>
+</div>
+<div id="answer" class="message-card">
+<h2><%= @answer %></h2>
+<span>- Your Coach</span>
+</div>
+<div id="new-ask" class="message-card">
+<%= link_to "Ask new question", ask_path %>
+</div>
